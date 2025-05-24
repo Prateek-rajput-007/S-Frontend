@@ -28,7 +28,7 @@ function Analytics() {
     const fetchProgress = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get('https://stream-backend-w52k.onrender.com/api/progress', {
+        const res = await axios.get('https://s-backend-xi.vercel.app/api/progress', {
           headers: { Authorization: `Bearer ${token}` },
         });
 
